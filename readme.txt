@@ -13,4 +13,6 @@ ovmeet手机视频会议视频教学平台
 
 手机视频　物联网　移动互联　通信平台
 ovmeet 手机视频会议　移动视频
-演示：http://58.22.109.6/ovmeet1/　帐号随便输　
+演示：http://58.22.109.6/ovmeet1/　
+android:http://58.22.109.6/ovmeet1/OvMeet.apk
+帐号随便输　
