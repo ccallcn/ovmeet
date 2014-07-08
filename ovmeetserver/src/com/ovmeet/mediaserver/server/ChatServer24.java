@@ -1,19 +1,6 @@
 //Author:lihong QQ:1410919373
 package com.ovmeet.mediaserver.server;
-
-//import com.ovmeet.mediaserver.io.utils.MemThread;
-//import com.ovmeet.mediaserver.server.adapter.ApplicationAdapter;
-//import com.ovmeet.mediaserver.server.api.IClient;
-//import com.ovmeet.mediaserver.server.api.IConnection;
-//import com.ovmeet.mediaserver.server.api.IScope;
-//import com.ovmeet.mediaserver.server.api.Red5;
-//import com.ovmeet.mediaserver.server.api.service.IServiceCapableConnection;
-//import com.ovmeet.mediaserver.server.api.so.ISharedObject;
-//import com.ovmeet.mediaserver.server.api.stream.IBroadcastStream;
-//import com.ovmeet.mediaserver.server.api.stream.IStreamCapableConnection;
-//import com.ovmeet.mediaserver.server.api.stream.support.SimpleConnectionBWConfig;
-//import com.ovmeet.mediaserver.server.stream.ClientBroadcastStream;
-
+ 
 import org.red5.server.adapter.ApplicationAdapter;
 import org.red5.server.api.IClient;
 import org.red5.server.api.IConnection;
@@ -29,9 +16,7 @@ import java.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-// Referenced classes of package com.ovmeet.mediaserver.server:
-//			Server
-
+ 
 public class ChatServer24 extends ApplicationAdapter
 {
 
@@ -45,40 +30,20 @@ public class ChatServer24 extends ApplicationAdapter
 		currentUser = 0;
 		
 		connList = new HashMap();
-		/**
-		try
-		{
-			MemThread m = new MemThread();
-			m.init();
-			appMaxUser = MemThread.maxUser;
-		}
-		catch (Exception e)
-		{
-			e.printStackTrace();
-		}
-		*/
-		//System.out.println((new StringBuilder("ÄãÏÖÔÚ·şÎñÆ÷LicenseÈËÊıÎª:")).append(appMaxUser).toString());
-		
-		
-		
-		//if (MemThread.hasBuy)
-		//	System.out.println("LicenseÊÇÕıÊ½°æ±¾!");
-		//else
-		//	System.out.println("LicenseÊÇÊÔÓÃ°æ±¾!");
+ 
 	}
 
 	public boolean appStart(IScope iscope)
 	{
 		super.appStart(iscope);
 		setGhostConnsCleanupPeriod(2000);
-		//log.info((new StringBuilder("ÊÓÆµ»áÒé·şÎñÆ÷ start-")).append(appMaxUser).append(" concurrence user version").toString());
-		return true;
+ 		return true;
 	}
 
 	public void appStop(IScope iscope)
 	{
 		super.appStop(iscope);
-		//log.info("ÊÓÆµ»áÒé·şÎñÆ÷ stop");
+ 
 	}
 
 	public boolean roomStart(IScope iscope)
@@ -97,14 +62,12 @@ public class ChatServer24 extends ApplicationAdapter
 			isharedobject5.setAttribute("history", "");
 			isharedobject5.endUpdate();
 			isharedobject4.beginUpdate();
-			isharedobject4.setAttribute("txtRoomInfo", "ÕâÀïÏÔÊ¾¹«¸æ£¬Ö÷³ÖÈË¿ÉÒÔĞŞ¸Ä¸üĞÂ£®");
+			isharedobject4.setAttribute("txtRoomInfo", "è¿™é‡Œæ˜¾ç¤ºå…¬å‘Šï¼Œä¸»æŒäººå¯ä»¥ä¿®æ”¹æ›´æ–°ï¼");
 			isharedobject4.setAttribute("maxVideoSeat", new Integer(4));
 			isharedobject4.setAttribute("curVideoSeat", new Integer(0));
 			isharedobject4.setAttribute("applyVideo", Boolean.valueOf(false));
 			HashMap hashmap = new HashMap();
-			//hashmap.put("w", new Integer(240));
-			//hashmap.put("h", new Integer(180));
-			//hashmap.put("f", new Integer(10));
+ 
 			hashmap.put("w", new Integer(320));
 			hashmap.put("h", new Integer(240));
 			hashmap.put("f", new Integer(15));			
@@ -112,11 +75,11 @@ public class ChatServer24 extends ApplicationAdapter
 			isharedobject4.setAttribute("v_q", new Integer(90));
 			isharedobject4.setAttribute("a_rate", new Integer(22));
 			isharedobject4.setAttribute("a_s", new Integer(10));
-			isharedobject4.setAttribute("g_ds", Boolean.valueOf(true));//ÌıÖÚ½ûÖ¹ÇëÇó·¢ÑÔ
-			isharedobject4.setAttribute("g_dp", Boolean.valueOf(false));//ÌıÖÚ½ûÖ¹Ë½ÁÄ
-			isharedobject4.setAttribute("g_dt", Boolean.valueOf(false));//ÌıÖÚ½ûÖ¹ÎÄ±¾·¢ÑÔ
-			isharedobject4.setAttribute("a_dv", Boolean.valueOf(false));//½ûÖ¹ËùÓĞÊÓÆµ
-			isharedobject4.setAttribute("a_da", Boolean.valueOf(false));//½ûÖ¹ËùÓĞÒôÆµ
+			isharedobject4.setAttribute("g_ds", Boolean.valueOf(true));
+			isharedobject4.setAttribute("g_dp", Boolean.valueOf(false));
+			isharedobject4.setAttribute("g_dt", Boolean.valueOf(false));
+			isharedobject4.setAttribute("a_dv", Boolean.valueOf(false));
+			isharedobject4.setAttribute("a_da", Boolean.valueOf(false));
 			isharedobject4.setAttribute("sync_ui", Boolean.valueOf(false));
 			isharedobject4.setAttribute("lock", Boolean.valueOf(false));
 			isharedobject4.endUpdate();
@@ -141,56 +104,24 @@ public class ChatServer24 extends ApplicationAdapter
 
 	public boolean roomConnect(IConnection iconnection, Object aobj[])
 	{
-		/**È¡ÏŞ´ø¿íÅäÖÃ
-		if (iconnection instanceof IStreamCapableConnection)
-		{
-			IStreamCapableConnection streamConn = (IStreamCapableConnection)iconnection;
-			SimpleConnectionBWConfig bwConfig = new SimpleConnectionBWConfig();
-			bwConfig.getChannelBandwidth()[3] = 0x100000L;
-			bwConfig.getChannelInitialBurst()[3] = 0x20000L;
-			streamConn.setBandwidthConfigure(bwConfig);
-		}
-		**/
+
 		super.roomConnect(iconnection, aobj);
-		/**
-		if (aobj.length == 5)
-			break MISSING_BLOCK_LABEL_69;
-		rejectClient();
-		return false;
-		String domain = (String)aobj[3];
-		if (checkDomain(domain))
-			break MISSING_BLOCK_LABEL_91;
-		rejectClient();
-		return false;
-		**/
-		//¿Í»§¶Ë²ÎÊı´«Èë²»µÈÓÚ5£¬²»³äĞíÁ¬½Ó
-		
+
 		if(aobj.length != 5)
 		{
 			rejectClient();
 			return false;			
 			
 		}
-		//¼ì²éÓòÃû²»ºÏ¸ñ£¬²»½ÓÈë
-		/*
-		String domain = (String)aobj[3];
-		if (!checkDomain(domain)){
-			rejectClient();
-			return false;		
-		}	
-		*/
+
 		IScope iscope = iconnection.getScope();
 		ISharedObject isharedobject = getSharedObject(iscope, "userList", false);
 		ISharedObject isharedobject1 = getSharedObject(iscope, "roomInfo", false);
 		ISharedObject userList2 = getSharedObject(iscope, "userList2", false);
-		boolean flag = ((Boolean)isharedobject1.getAttribute("lock")).booleanValue();//·¿¼äËø¶¨±êÖ¾
-		int i = iconnection.getScope().getClients().size();//½ÓÈë³¤¶È
-		int j = Integer.parseInt((String)aobj[1]);//È¨ÏŞ±êÖ¾
-		/**È¡²ÎÊı³¤¶È´óÓÚ0  aobj.length<1£¬ÊÇ²»ÊÇ¹ÜÀíÔ± j!=2 ±êÖ¾2Îª¹ÜÀíÔ±£¬¡¡·¿¼äËø¶¨±êÖ¾flag,¡¡MemThread.isExpired()ÊÚÈ¨ÈÏÖ¤ÊÇ²»ÊÇµ½ÆÚ
-		if (aobj.length < 1 || MemThread.isExpired() || j != 2 && flag)
-			break MISSING_BLOCK_LABEL_608;
-		**/
-		
+		boolean flag = ((Boolean)isharedobject1.getAttribute("lock")).booleanValue();//æˆ¿é—´é”å®šæ ‡å¿—
+		int i = iconnection.getScope().getClients().size();//æ¥å…¥é•¿åº¦
+		int j = Integer.parseInt((String)aobj[1]);//æƒé™æ ‡å¿—
+
 		String userName = (String)aobj[0];
 		
 		 
@@ -199,16 +130,11 @@ public class ChatServer24 extends ApplicationAdapter
 			rejectClient();
 			return false;		
 		}	
-		 
-		//System.out.println("²ÎÊı¸öÊı£º"+aobj.length+"Ëø¶¨±êÖ¾£º"+flag+"ÓÃ»§¼¶±ğ£º"+j+"ÓÃ»§Ãû£º"+userName);
-		
-		//if (aobj.length > 0  && (!flag || j == 2) )
+
 		if (aobj.length > 0)	
 		{	
 		
-		//String userName = (String)aobj[0];
-		//if (currentUser >= appMaxUser)
-		//	break MISSING_BLOCK_LABEL_608;
+
 			if (currentUser < appMaxUser)
 			{ 
 			
@@ -216,17 +142,13 @@ public class ChatServer24 extends ApplicationAdapter
 				IServiceCapableConnection iservicecapableconnection = (IServiceCapableConnection)iconnection;
 				String s = iconnection.getClient().getId();
 				
-				//¸üĞÂ½çÃæÓÃ»§Á¬½ÓµÄÓÃ»§£É£ÄºÅ£¬£É£ÄºÅÊÇ·şÎñ¶Ë×Ô¶¯Éú³ÉµÄ£¬ÕâÀïµ÷ÓÃ·µ»Ø¸ø¿Í»§¶Ë
 				iservicecapableconnection.invoke("setUserID", new Object[] {
 					s
 				});
-				//System.out.println("¸üĞÂ·¿¼äĞÅÏ¢£¡");
-				
-				//¸üĞÂ¿Í»§¶ËµÄ·¿¼äĞÅÏ¢
+
 				iservicecapableconnection.invoke("updateRoomInfo", new Object[] {
-						//·¿¼ä×î´óÈËÊıMemThread.maxUser£¬ÊÇ·ñÒÑ¹ºÂòMemThread.hasBuy£¬true¹ºÂò£¬flase·Ç¹º£¬ÏÔÊ¾ĞÅÏ¢£ºMemThread.companyName
-						//Integer.valueOf(MemThread.maxUser), Boolean.valueOf(MemThread.hasBuy), MemThread.companyName
-						Integer.valueOf(appMaxUser), Boolean.valueOf(true), "¿Æ¼¼´´ÔìÎ´À´£¬Èí¼ş·şÎñ´óÖÚ"
+
+						Integer.valueOf(appMaxUser), Boolean.valueOf(true), "ç§‘æŠ€åˆ›é€ æœªæ¥ï¼Œè½¯ä»¶æœåŠ¡å¤§ä¼—"
 				});
 				
 				
@@ -243,21 +165,11 @@ public class ChatServer24 extends ApplicationAdapter
 				hashmap.put("hasCam", aobj[2]);
 				hashmap.put("realName", aobj[4]);
 				hashmap.put("videoSeat", new Integer(-2));
-				/**ÊÚÈ¨Í¨¹ıµ÷ÓÃflash¿Í»§¶Ë showTryWin·½·¨£¬µ¯³ö»¶Ó­½çÃæ MemThread.isTriaÊÔÓÃ±êÖ¾,trueÊÔÓÃ£¬flase·ÇÊÔÓÃ
-				if (MemThread.isTria)
-				{
-					String strWelcome = "»¶Ó­ÊÔÓÃCeCallMeet,ÍøÖ·http://www.cecall.cc!";
-					iservicecapableconnection.invoke("showTryWin", new Object[] {
-						strWelcome
-					});
-				}
-				**/
-				//System.out.println("²é¿´ÓÃ»§µÄÅäÖÃĞÅÏ¢£¡");
-				
+
 				if (userList2.getAttribute(userName) != null)
 				{
 					String s2 = (String)userList2.getAttribute(userName);
-					kickUser(s2);//Ìß³ıÉÏÒ»´ÎµÄ»áÒéµÇÂ¼
+					kickUser(s2);
 					isharedobject.removeAttribute(s2);
 					isharedobject.setAttribute(s, hashmap);
 					isharedobject.endUpdate();
@@ -351,21 +263,10 @@ public class ChatServer24 extends ApplicationAdapter
 			}
 		}
 	}
-	//¼ì²éÓòÃûÊÇ²»ÊÇÈÏÖ¤µÄ·şÎñÆ÷
+
 	protected boolean checkDomain(String domain)
 	{
-		/**
-		int len = Server.hostnames.length;
-		if (domain.equals(""))
-			return false;
-		if (domain.equalsIgnoreCase("www.ovmeet.com"))
-			return true;
-		for (int i = 0; i < len; i++)
-			if (Server.hostnames[i].equals("") || Server.hostnames[i].equalsIgnoreCase(domain))
-				return true;
 
-		return false;
-		**/
 		return true;
 	}
 
@@ -545,19 +446,11 @@ public class ChatServer24 extends ApplicationAdapter
 		try
 		{
 			ISharedObject isharedobject = getSharedObject(Red5.getConnectionLocal().getScope(), "textChat", false);
-			//ISharedObject isharedobject1 = getSharedObject(Red5.getConnectionLocal().getScope(), "chatHistory", false);
+
 			ArrayList arraylist = new ArrayList();
 			arraylist.add(s);
 			isharedobject.sendMessage("sendMessage", arraylist);
-			
-			//String s1 = (String)isharedobject1.getAttribute("history");
-			//s1 = (new StringBuilder()).append(s1).append(s).toString();
-			
-			
-			//isharedobject1.beginUpdate();
-			//isharedobject1.setAttribute("history", s1);
-			//isharedobject1.endUpdate();
-		}
+
 		catch (Exception e)
 		{
 			log.error("", e);
@@ -570,10 +463,7 @@ public class ChatServer24 extends ApplicationAdapter
 		ISharedObject isharedobject = getSharedObject(Red5.getConnectionLocal().getScope(), "chatHistory", false);
 		s = (String)isharedobject.getAttribute("history");
 		return s;
-		//Exception e;
-		//e;
-		//log.error("", e);
-		//return "";
+
 	}
 
 	public void newShape(Object obj, String page)
@@ -704,24 +594,7 @@ public class ChatServer24 extends ApplicationAdapter
 
 	public void setBandwidth(int b)
 	{
-		/**
-		try
-		{
-			IConnection iconnection = Red5.getConnectionLocal();
-			if (iconnection instanceof IStreamCapableConnection)
-			{
-				IStreamCapableConnection streamConn = (IStreamCapableConnection)iconnection;
-				SimpleConnectionBWConfig bwConfig = new SimpleConnectionBWConfig();
-				bwConfig.getChannelBandwidth()[3] = b * 1024;
-				bwConfig.getChannelInitialBurst()[3] = b * 1024;
-				streamConn.setBandwidthConfigure(bwConfig);
-			}
-		}
-		catch (Exception e)
-		{
-			log.error("stopRecord(...) Exception", e);
-		}
-		**/
+
 	}
 	
 
