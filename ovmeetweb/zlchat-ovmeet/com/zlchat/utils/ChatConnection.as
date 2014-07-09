@@ -1,4 +1,4 @@
-﻿//hong QQ:1410919373
+//hong QQ:1410919373
 package com.zlchat.utils {
     import com.zlchat.ui.*;
     import flash.events.*;
@@ -43,21 +43,16 @@ package com.zlchat.utils {
         public var userName:String;
         private var downLatency:Number;
 
-		//public var ncvideo:NetConnection = null;//视频服务器连接
-		public var ncvideo:VideoConnection;//视频服务器连接
-		public var groupSpecifier:GroupSpecifier;//视频组
-		public var netGroup:NetGroup = null; //用户组
+		public var ncvideo:NetConnection = null;
+		public var groupSpecifier:GroupSpecifier;
+		public var netGroup:NetGroup = null; 
 
-		public var rtmfpUrl="rtmfp://m.ovmeet.com:1988/multicast";
-		//public var rtmfpUrl="rtmfp:";
-        public function ChatConnection(){ 
+        public function ChatConnection(){
             addEventListener(NetStatusEvent.NET_STATUS, netStatusHandler);
             addEventListener(SecurityErrorEvent.SECURITY_ERROR, securityErrorHandler);
             addEventListener(AsyncErrorEvent.ASYNC_ERROR, onNetError);
             addEventListener(IOErrorEvent.IO_ERROR, onNetError);
-           // mic = Microphone.getMicrophone();
-	    mic = Microphone.getEnhancedMicrophone();
-
+            mic = Microphone.getMicrophone();
             if (mic != null){
                 mic.gain = 60;
             };
@@ -73,11 +68,10 @@ package com.zlchat.utils {
             tipTimer = new Timer(60000);
             tipTimer.addEventListener(TimerEvent.TIMER, tipHandler);
  
-			//ncvideo = new NetConnection();
-			ncvideo = new VideoConnection();
-			ncvideo.client = ncvideo;
+			ncvideo = new NetConnection();
+			ncvideo.client = this;
 			ncvideo.addEventListener(NetStatusEvent.NET_STATUS, VnetStatusHandler);
-			//ncvideo.connect("rtmfp://m.cecall.cc:1966/");  
+
         }
         public static function getChineseTime(){
             var _local1:String;
@@ -135,7 +129,7 @@ package com.zlchat.utils {
                 };
             } catch(e:Error) {
             };
-        } 
+        }
         public function onSetRole(_arg1:String):void{
             if (_arg1 != null){
                 this.role = _arg1;
@@ -172,68 +166,47 @@ package com.zlchat.utils {
                             case "v_mode":
                                 if (cam != null){
                                     _local4 = roomInfoSo.data["v_mode"];
-                                    cam.setMode(_local4.w, _local4.h, _local4.f);
-				    cam.setKeyFrameInterval(48);//关键帧
-				    //cam.setMode(_local4.w, _local4.h, _local4.f,false);
-				    //trace("长:"+_local4.w+"H"+_local4.h+"F"+_local4.f);
-					//cam.setMode(320, 240, 10,false);
+                                    cam.setMode(_local4.w, _local4.h, _local4.f,false);
+	
                                 };
                                 dispatchEvent(new RoomInfoEvent("v_mode", roomInfoSo.data["v_mode"]));
                                 break;
                             case "v_q":
                                 if (cam != null){
-                                   // cam.setQuality(0, roomInfoSo.data["v_q"]);
-				   //cam.setQuality(128000, roomInfoSo.data["v_q"]);
-				    cam.setQuality(48000, 0);
-				   // cam.setQuality(0, 95);
+                                    cam.setQuality(0, roomInfoSo.data["v_q"]);
+
                                     dispatchEvent(new RoomInfoEvent("v_q", roomInfoSo.data["v_q"]));
                                 };
                                 break;
                             case "a_rate":
                                 if (mic != null){
-					mic.rate = roomInfoSo.data["a_rate"];
-					mic.codec =flash.media.SoundCodec.SPEEX;
-					//mic.framesPerPacket = 1;
-					mic.encodeQuality = 6;
-					mic.noiseSuppressionLevel = 0;
-					mic.noiseSuppressionLevel = -30;
-					//mic.rate = 22;
-					//mic.setSilenceLevel(0);  
+                                    mic.rate = roomInfoSo.data["a_rate"];
+					//				mic.rate = 8;
                                     mic.setUseEchoSuppression(true);
                                 };
                                 dispatchEvent(new RoomInfoEvent("a_rate", roomInfoSo.data["a_rate"]));
                                 break;
                             case "a_s":
                                 if (mic != null){
-                                    //mic.setSilenceLevel(roomInfoSo.data["a_s"]);
-				    //mic.setSilenceLevel(10, 20000); //静音伐值
-				    mic.setLoopBack(false);//本地麦声不传到扬声器
-				   // mic.setSilenceLevel(0); 
+                                    mic.setSilenceLevel(roomInfoSo.data["a_s"]);
 
-				    var loc1:*=null;
-				        loc1 = new flash.media.MicrophoneEnhancedOptions();
-					loc1.mode = flash.media.MicrophoneEnhancedMode.FULL_DUPLEX;
-					loc1.autoGain = false;
-					loc1.echoPath = 128;
-					loc1.nonLinearProcessing = false;
-					mic.enhancedOptions = loc1;
                                     dispatchEvent(new RoomInfoEvent("a_s", roomInfoSo.data["a_s"]));
                                 };
                                 break;
                             case "g_ds":
-                                dispatchEvent(new RoomInfoEvent("g_ds", roomInfoSo.data["g_ds"]));//听众禁止请求发言
+                                dispatchEvent(new RoomInfoEvent("g_ds", roomInfoSo.data["g_ds"]));
                                 break;
                             case "g_dp":
-                                dispatchEvent(new RoomInfoEvent("g_dp", roomInfoSo.data["g_dp"]));//听众禁止私聊 把值和"听众禁止请求发言"设计一样
+                                dispatchEvent(new RoomInfoEvent("g_dp", roomInfoSo.data["g_dp"]));
                                 break;
                             case "g_dt":
-                                dispatchEvent(new RoomInfoEvent("g_dt", roomInfoSo.data["g_dt"]));//听众禁止文本发言 把值和"听众禁止请求发言"设计一样
+                                dispatchEvent(new RoomInfoEvent("g_dt", roomInfoSo.data["g_dt"]));
                                 break;
                             case "a_dv":
-                                dispatchEvent(new RoomInfoEvent("a_dv", roomInfoSo.data["a_dv"]));//禁止所有视频
+                                dispatchEvent(new RoomInfoEvent("a_dv", roomInfoSo.data["a_dv"]));
                                 break;
                             case "a_da":
-                                dispatchEvent(new RoomInfoEvent("a_da", roomInfoSo.data["a_da"]));//禁止所有音频
+                                dispatchEvent(new RoomInfoEvent("a_da", roomInfoSo.data["a_da"]));
                                 break;
                             case "sync_ui":
                                 dispatchEvent(new RoomInfoEvent("sync_ui", roomInfoSo.data["sync_ui"]));
@@ -302,14 +275,12 @@ package com.zlchat.utils {
 
         private function VnetStatusHandler(evt:NetStatusEvent) : void
         {
-			//logMessage("连接信息: " + evt.info.code);
+
 			trace("ccccc1"+evt.info.code);
 			switch(evt.info.code) 
 			{
 				case "NetGroup.Connect.Success": 
-					//定义组 连接成功
-					//dispatchEvent(new ConnEvent(ConnEvent.USERID));
-					initSharedObject();
+
 					break;
 				case "NetConnection.Connect.Failed":
 				case "NetConnection.Connect.Rejected": 
@@ -317,42 +288,8 @@ package com.zlchat.utils {
 					ExternalInterface.call("alert", "视频服务器连接出错!", null);
 					break;
 				case "NetConnection.Connect.Success":
-					//initSharedObject();
-						 try {
-							//connected(param1,param2,param3);
-							//ExternalInterface.call("alert", "视频服务器连接OK!", null);
-							// trace("ccccc1");
-							 
-							groupSpecifier = new GroupSpecifier(roomID);
-							//允许多播
-							 //trace("ccccc22");
+					initSharedObject();
 
-							groupSpecifier.multicastEnabled = true;
-							//允许发送数据
-							// trace("ccccc3");
-
-							groupSpecifier.postingEnabled = true;
-							//打开频道
-							// trace("ccccc4");
-
-							 groupSpecifier.ipMulticastMemberUpdatesEnabled = true;
-							if (rtmfpUrl == "rtmfp:") 
-							{
-								 trace("ccccc45")
-								 groupSpecifier.addIPMulticastAddress("225.225.0.1:30303");
-
-							} else {
-								// trace("ccccc466")
-								groupSpecifier.serverChannelEnabled = true;				
-							}
-							//groupSpecifier.serverChannelEnabled = true;
-							//加入用户组
-							// trace("ccccc5");
-
-							netGroup = new NetGroup(ncvideo, groupSpecifier.groupspecWithAuthorizations());  
-							//trace("ccccc6");
-							 
-						 } catch (e:Error) {}
 					break;
 
 				default:
@@ -360,9 +297,9 @@ package com.zlchat.utils {
 
 	}
 	private function ncvideoConnect():void{
-		ncvideo.connect(rtmfpUrl);
-		//ncvideo.connect("rtmfp://m.cecall.cc:1988/live");
-		//ncvideo.connect("rtmp://"+mediaServer+":1966/videochat");
+	
+
+		ncvideo.connect("rtmp://119.161.219.252:1966/live");
 	}
 
         public function onDetectFailed(_arg1:BandwidthDetectEvent):void{
@@ -403,12 +340,13 @@ package com.zlchat.utils {
                     };
                     Security.showSettings(SecurityPanel.PRIVACY);
 					//BT服务器连接
-			//		 ncvideoConnect(); 
-                    initSharedObject();
+		    ncvideoConnect();
+		    //ncvideo.connect("rtmfp://m.cecall.cc:1966/"); 
+                    //initSharedObject();
                     hasConnected = true;
                     reConnTimer.stop();
-                   // ServerClient();
-                   // bandWidthTimer.start();
+                    ServerClient();
+                    bandWidthTimer.start();
                     break;
                 case "NetConnection.Connect.Closed":
                     if (((hasConnected) && (!(isKick)))){
@@ -533,11 +471,11 @@ package com.zlchat.utils {
             var _local4:Object;
             var _local5:*;
             var _local6:Object;
-			//trace("Speaklist1:");
+			trace("Speaklist1:");
             for (_local2 in _arg1.changeList) {
-				//trace("Speaklist2:");
+				trace("Speaklist2:");
                 _local5 = _arg1.changeList[_local2];
-				//trace("Speaklist3:"+_local5.code);
+				trace("Speaklist3:"+_local5.code);
                 switch (_local5.code){
                     case "change":
                         _local6 = speakListSo.data[_local5.name];
@@ -549,7 +487,7 @@ package com.zlchat.utils {
                         break;
                 };
             };
-			//trace("Speaklist5:");
+			trace("Speaklist5:");
             _local3 = new DataProvider();
             for each (_local4 in speakListSo.data) {
                 _local3.addItem({
@@ -570,41 +508,41 @@ package com.zlchat.utils {
             var _local4:Object;
             var _local2:DataProvider = new DataProvider();
             var _local3:DataProvider = new DataProvider();
-			//trace("userlist1:");
+			trace("userlist1:");
             for each (_local4 in userListSo.data) {
-               // trace("userlist1:"+_local4.userID+":"+this.userID);
+                trace("userlist1:"+_local4.userID+":"+this.userID);
 				if (_local4.userID == this.userID){
-					//trace("userlist2:"+_local4.userID+":"+this.userID);
+					trace("userlist2:"+_local4.userID+":"+this.userID);
                     this.user = _local4;
                     _local2.addItem({
                         label:(_local4.realName + "  (本人)"),
                         data:_local4
                     });
                 } else {
-					//trace("userlist3:"+_local4.userID+":"+this.userID);
+					trace("userlist3:"+_local4.userID+":"+this.userID);
                     _local2.addItem({
                         label:_local4.realName,
                         data:_local4
                     });
                 };
-				//trace("userlist4:"+_local4.userID+":"+this.userID);
+				trace("userlist4:"+_local4.userID+":"+this.userID);
                 if (_local4.hasCam == true){
-					//trace("userlist5:"+_local4.userID+":"+this.userID);
+					trace("userlist5:"+_local4.userID+":"+this.userID);
                     _local3.addItem({
                         label:_local4.realName,
                         data:_local4
                     });
                 };
-				//trace("userlist6:"+_local4.userID+":"+this.userID);
+				trace("userlist6:"+_local4.userID+":"+this.userID);
             };
-			//trace("userlist7:");
+			trace("userlist7:");
             dispatchEvent(new ConnListEvent(ConnListEvent.UserListSync, _local2));
-			//trace("userlist8:");
+			trace("userlist8:");
             if (_local3.length > 0){
-				//trace("userlist9:");
+				trace("userlist9:");
                 dispatchEvent(new ConnListEvent("jksync", _local3));
             };
-			//trace("userlist10:");
+			trace("userlist10:");
         }
         public function onKick(_arg1:Boolean):void{
             if (_arg1){
@@ -647,18 +585,13 @@ package com.zlchat.utils {
                 if (viewNS != null){
                     viewNS.attachCamera(this.cam);
                 } else {
-						viewNS = new NetStream(this);
 
-					//创建netStream与用户组的链接，我们用他来发送视频和音频流
-					//viewNS = new NetStream(this.ncvideo, this.groupSpecifier.groupspecWithAuthorizations());
+			viewNS = new NetStream(this.ncvideo, this.groupSpecifier.groupspecWithAuthorizations());
 
-						
-						//这里是管理员监控，查看用的流H264
-						//var vh264Settings:H264VideoStreamSettings = new H264VideoStreamSettings();
-						//vh264Settings.setProfileLevel(H264Profile.BASELINE,H264Level.LEVEL_5_1);  
-						//viewNS.videoStreamSettings = vh264Settings;
-
-		    viewNS.bufferTime = 0.5; 
+			var vh264Settings:H264VideoStreamSettings = new H264VideoStreamSettings();
+			vh264Settings.setProfileLevel(H264Profile.BASELINE,H264Level.LEVEL_5_1); 
+			
+			viewNS.videoStreamSettings = vh264Settings;
                     viewNS.attachCamera(this.cam);
                     viewNS.publish(("zlchat_view" + userID));
                 };
