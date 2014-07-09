@@ -1,4 +1,4 @@
-﻿//hong QQ:1410919373
+//hong QQ:1410919373
 package com.zlchat.utils {
     import com.zlchat.ui.*;
     import flash.events.*;
@@ -43,9 +43,9 @@ package com.zlchat.utils {
         public var userName:String;
         private var downLatency:Number;
 
-		public var ncvideo:NetConnection = null;//视频服务器连接
-		public var groupSpecifier:GroupSpecifier;//视频组
-		public var netGroup:NetGroup = null; //用户组
+		public var ncvideo:NetConnection = null;
+		public var groupSpecifier:GroupSpecifier;
+		public var netGroup:NetGroup = null; 
 
         public function ChatConnection(){
             addEventListener(NetStatusEvent.NET_STATUS, netStatusHandler);
@@ -71,7 +71,7 @@ package com.zlchat.utils {
 			ncvideo = new NetConnection();
 			ncvideo.client = this;
 			ncvideo.addEventListener(NetStatusEvent.NET_STATUS, VnetStatusHandler);
-			//ncvideo.connect("rtmfp://m.cecall.cc:1966/");  
+
         }
         public static function getChineseTime(){
             var _local1:String;
@@ -167,14 +167,14 @@ package com.zlchat.utils {
                                 if (cam != null){
                                     _local4 = roomInfoSo.data["v_mode"];
                                     cam.setMode(_local4.w, _local4.h, _local4.f,false);
-					//cam.setMode(320, 240, 10,false);
+	
                                 };
                                 dispatchEvent(new RoomInfoEvent("v_mode", roomInfoSo.data["v_mode"]));
                                 break;
                             case "v_q":
                                 if (cam != null){
                                     cam.setQuality(0, roomInfoSo.data["v_q"]);
-					//cam.setQuality(0, 90);
+
                                     dispatchEvent(new RoomInfoEvent("v_q", roomInfoSo.data["v_q"]));
                                 };
                                 break;
@@ -189,8 +189,7 @@ package com.zlchat.utils {
                             case "a_s":
                                 if (mic != null){
                                     mic.setSilenceLevel(roomInfoSo.data["a_s"]);
-					//				mic.setSilenceLevel(10, 20000); //静音伐值
-				   　//mic.setLoopBack(false);//本地麦声不传到扬声器
+
                                     dispatchEvent(new RoomInfoEvent("a_s", roomInfoSo.data["a_s"]));
                                 };
                                 break;
@@ -276,14 +275,12 @@ package com.zlchat.utils {
 
         private function VnetStatusHandler(evt:NetStatusEvent) : void
         {
-			//logMessage("连接信息: " + evt.info.code);
+
 			trace("ccccc1"+evt.info.code);
 			switch(evt.info.code) 
 			{
 				case "NetGroup.Connect.Success": 
-					//定义组 连接成功
-					//dispatchEvent(new ConnEvent(ConnEvent.USERID));
-					//initSharedObject();
+
 					break;
 				case "NetConnection.Connect.Failed":
 				case "NetConnection.Connect.Rejected": 
@@ -292,31 +289,7 @@ package com.zlchat.utils {
 					break;
 				case "NetConnection.Connect.Success":
 					initSharedObject();
-						//try {
-							//connected(param1,param2,param3);
-							//ExternalInterface.call("alert", "视频服务器连接OK!", null);
-							//trace("ccccc1");
-							/**
-							groupSpecifier = new GroupSpecifier(roomID);
-							//允许多播
-							//trace("ccccc22");
 
-							groupSpecifier.multicastEnabled = true;
-							//允许发送数据
-							//trace("ccccc3");
-
-							groupSpecifier.postingEnabled = true;
-							//打开频道
-							//trace("ccccc4");
-
-							groupSpecifier.serverChannelEnabled = true;
-							//加入用户组
-							//trace("ccccc5");
-
-							netGroup = new NetGroup(ncvideo, groupSpecifier.groupspecWithAuthorizations());  
-							//trace("ccccc6");
-							**/
-						//} catch (e:Error) {}
 					break;
 
 				default:
@@ -325,15 +298,15 @@ package com.zlchat.utils {
 	}
 	private function ncvideoConnect():void{
 	
-		//ncvideo.connect("rtmfp://"+mediaServer+":1988/");
-		ncvideo.connect("rtmp://"+mediaServer+":1966/videochat");
+
+		ncvideo.connect("rtmp://119.161.219.252:1966/live");
 	}
 
         public function onDetectFailed(_arg1:BandwidthDetectEvent):void{
         }
         protected function reConnHandler(_arg1:Event):void{
             if (!hasConnected){
-                connect((("rtmp://"+mediaServer + ":1936/zlchat2/") + roomID), userName, role, hasCam, myDomain, realName);
+                connect((("rtmp://"+mediaServer + ":1936/vimeet/") + roomID), userName, role, hasCam, myDomain, realName);
             } else {
                 reConnTimer.stop();
             };
@@ -612,14 +585,9 @@ package com.zlchat.utils {
                 if (viewNS != null){
                     viewNS.attachCamera(this.cam);
                 } else {
-                   // viewNS = new NetStream(this);
 
-			//创建netStream与用户组的链接，我们用他来发送视频和音频流
 			viewNS = new NetStream(this.ncvideo, this.groupSpecifier.groupspecWithAuthorizations());
 
-			//viewNS.bufferTime = 0;
-				
-			//这里是管理员监控，查看用的流H264
 			var vh264Settings:H264VideoStreamSettings = new H264VideoStreamSettings();
 			vh264Settings.setProfileLevel(H264Profile.BASELINE,H264Level.LEVEL_5_1); 
 			
