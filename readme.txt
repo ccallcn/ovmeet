@@ -15,4 +15,5 @@ ovmeet手机视频会议视频教学平台
 ovmeet 手机视频会议　移动视频
 演示：http://58.22.109.6/ovmeet1/　
 android:http://58.22.109.6/ovmeet1/OvMeet.apk
+iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 帐号随便输　
