@@ -166,9 +166,7 @@ public class ChatServer24 extends ApplicationAdapter
 				{
 					isharedobject.setAttribute(s, hashmap);
 					isharedobject.endUpdate();
-					userList2.beginUpdate();
-					userList2.setAttribute((String)aobj[0], s);
-					userList2.endUpdate();
+
 				}
 				connList.put(s, iconnection);
 				return true; 
