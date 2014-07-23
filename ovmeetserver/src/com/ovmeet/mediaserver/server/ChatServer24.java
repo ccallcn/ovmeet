@@ -142,16 +142,6 @@ public class ChatServer24 extends ApplicationAdapter
 				IServiceCapableConnection iservicecapableconnection = (IServiceCapableConnection)iconnection;
 				String s = iconnection.getClient().getId();
 				
-				iservicecapableconnection.invoke("setUserID", new Object[] {
-					s
-				});
-
-				iservicecapableconnection.invoke("updateRoomInfo", new Object[] {
-
-						Integer.valueOf(appMaxUser), Boolean.valueOf(true), "科技创造未来，软件服务大众"
-				});
-				
-				
 				
 				iconnection.setAttribute("userID", s);
 				iconnection.setAttribute("userName", userName);
@@ -169,7 +159,6 @@ public class ChatServer24 extends ApplicationAdapter
 				if (userList2.getAttribute(userName) != null)
 				{
 					String s2 = (String)userList2.getAttribute(userName);
-					kickUser(s2);
 					isharedobject.removeAttribute(s2);
 					isharedobject.setAttribute(s, hashmap);
 					isharedobject.endUpdate();
