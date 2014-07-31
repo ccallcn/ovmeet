@@ -18,3 +18,6 @@ ovmeet 手机视频会议　移动视频
 android:http://58.22.109.6/ovmeet1/OvMeet.apk
 iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 帐号随便输　
+主播直播p2p技术演示不需要自建服务器: 
+主播端: http://58.22.109.6/live/1.html 
+观看端:http://58.22.109.6/live/2.html
