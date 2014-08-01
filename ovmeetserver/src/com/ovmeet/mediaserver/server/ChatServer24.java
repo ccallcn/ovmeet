@@ -118,9 +118,9 @@ public class ChatServer24 extends ApplicationAdapter
 		ISharedObject isharedobject = getSharedObject(iscope, "userList", false);
 		ISharedObject isharedobject1 = getSharedObject(iscope, "roomInfo", false);
 		ISharedObject userList2 = getSharedObject(iscope, "userList2", false);
-		boolean flag = ((Boolean)isharedobject1.getAttribute("lock")).booleanValue();//房间锁定标志
-		int i = iconnection.getScope().getClients().size();//接入长度
-		int j = Integer.parseInt((String)aobj[1]);//权限标志
+		boolean flag = ((Boolean)isharedobject1.getAttribute("lock")).booleanValue();
+		int i = iconnection.getScope().getClients().size();
+		int j = Integer.parseInt((String)aobj[1]);
 
 		String userName = (String)aobj[0];
 		
@@ -513,29 +513,7 @@ public class ChatServer24 extends ApplicationAdapter
 		}
 	}
 
-	public void clearWB(String page)
-	{
-		try
-		{
-			ISharedObject isharedobject = getSharedObject(Red5.getConnectionLocal().getScope(), page, false);
-			int i = 1000;
-			if (isharedobject.getAttribute("lastID") != null)
-			{
-				i = ((Integer)isharedobject.getAttribute("lastID")).intValue();
-				for (int j = 1000; j < i; j++)
-					isharedobject.removeAttribute((new StringBuilder(String.valueOf(page))).append(String.valueOf(j)).toString());
-
-				isharedobject.beginUpdate();
-				isharedobject.setAttribute("lastID", new Integer(1000));
-				isharedobject.setAttribute("indexPage", Integer.valueOf(Integer.parseInt(page.substring(4))));
-				isharedobject.endUpdate();
-			}
-		}
-		catch (Exception e)
-		{
-			log.error("clear witeboard error", e);
-		}
-	}
+ 
 
 	public void startRecord(String userID, String flvName)
 	{
