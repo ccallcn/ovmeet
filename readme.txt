@@ -16,7 +16,7 @@ ovmeet-server安装包下载
 2.运行install.exe 安装程序.注意:只安装一次就行了(即只需要运行一次install.exe),
   不用每次启动都安装,因为已经添加为系统服务,会自动启动的.
 3.如果要卸载删除程序的话 运行uninstall.exe,再删除C:\ovmeet目录就可以了.
-4.在浏览器中输入http://localhost:5080/  
+4.在浏览器中输入http://localhost:5080/  测试的帐号密码随意输
 5. ce_checkUser.php 客户端的回调户验证用,参数见页内说明,可以和你的业务系统对接,可以与你的帐号系统无缝集成
 
 
