@@ -32,5 +32,5 @@ iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 观看端:http://58.22.109.6/live/2.html
 
 
-手机视频通话演示
-android:http://58.22.109.6/ovmeet1/vv.apk
+手机随机视频通话，直播演示
+android:http://pan.baidu.com/s/1pJylUuZ
