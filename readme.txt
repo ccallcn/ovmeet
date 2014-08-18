@@ -32,5 +32,5 @@ iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 观看端:http://58.22.109.6/live/2.html
 
 
-手机随机视频通话，直播演示
+手机随机视频通话，按一下麦图标，5秒内匹配同时按键的人视频聊天啦．
 android:http://pan.baidu.com/s/1pJylUuZ
