@@ -30,6 +30,10 @@ iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 主播端: http://58.22.109.6/live/1.html 
 观看端:http://58.22.109.6/live/2.html
 
+手机视频电话：
+测试帐号332240 332241 密码：222222
+android:http://pan.baidu.com/s/1sj2lA9n
 
 手机随机视频通话，按一下麦图标，5秒内匹配同时按键的人视频聊天啦．
+帐号随意输
 android:http://pan.baidu.com/s/1pJylUuZ
