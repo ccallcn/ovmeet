@@ -10,6 +10,10 @@ ovmeet手机视频会议视频教学平台
 7,应用场景很多吧，直播，会议，视频教学，视频游戏．
 相关资料搜索： ovmeet　关键字 
 
+ovmeet 手机视频会议　移动视频
+演示：http://58.22.109.6/ovmeet1/
+android:http://58.22.109.6/ovmeet1/OvMeet.apk
+iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 ovmeet-server安装包下载
 地址:http://pan.baidu.com/s/1o6v6cX0
 1.ovmeet 为绿色软件, 首先解压到C:\ (注意不要放到别的目录下去)
@@ -21,10 +25,7 @@ ovmeet-server安装包下载
 
 业务合作定制(非技术)QQ:1410919373  QQ群：108712418
 手机视频　物联网　移动互联　通信平台
-ovmeet 手机视频会议　移动视频
-演示：http://58.22.109.6/ovmeet1/
-android:http://58.22.109.6/ovmeet1/OvMeet.apk
-iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
+
 帐号随便输　
 主播直播技术演示不需要自建服务器: 
 主播端: http://58.22.109.6/live/1.html 
