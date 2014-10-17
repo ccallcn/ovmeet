@@ -514,48 +514,7 @@ public class ChatServer24 extends ApplicationAdapter
 	}
 
  
-
-	public void startRecord(String userID, String flvName)
-	{
-		try
-		{
-			System.out.println("user:"+userID+"--"+"flvname:"+flvName);
-			IBroadcastStream s = this.getBroadcastStream(Red5.getConnectionLocal().getScope(), userID);
-			s.saveAs(flvName, true);
-			ISharedObject speakListSo = getSharedObject(Red5.getConnectionLocal().getScope(), "speakList", false);
-			HashMap speaker = (HashMap)speakListSo.getAttribute(userID);
-			speaker.put("isRecord", new Boolean(true));
-			speakListSo.beginUpdate();
-			speakListSo.setAttribute(userID, speaker);
-			speakListSo.endUpdate();
-		}
-		catch (Exception e)
-		{
-			log.error("startRecord(...) Exception", e);
-		}
-	}
-
-	public void stopRecord(String userID)
-	{
-		try
-		{
-			ClientBroadcastStream s = (ClientBroadcastStream)getBroadcastStream(Red5.getConnectionLocal().getScope(), userID);
-			s.stopRecording();
-			ISharedObject isharedobject1 = getSharedObject(Red5.getConnectionLocal().getScope(), "speakList", false);
-			ArrayList arraylist = new ArrayList();
-			isharedobject1.sendMessage("getVodList", arraylist);
-			ISharedObject speakListSo = getSharedObject(Red5.getConnectionLocal().getScope(), "speakList", false);
-			HashMap speaker = (HashMap)speakListSo.getAttribute(userID);
-			speaker.put("isRecord", new Boolean(false));
-			speakListSo.beginUpdate();
-			speakListSo.setAttribute(userID, speaker);
-			speakListSo.endUpdate();
-		}
-		catch (Exception e)
-		{
-			log.error("stopRecord(...) Exception", e);
-		}
-	}
+ 
 
 	public void setBandwidth(int b)
 	{
