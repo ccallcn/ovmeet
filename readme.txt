@@ -28,15 +28,16 @@ ovmeet-server安装包下载
 业务合作定制(非技术)QQ:1410919373  QQ群：108712418
 手机视频　物联网　移动互联　通信平台
 
+下面是一些应用演示产品
 帐号随便输　
 主播直播技术演示不需要自建服务器: 
 主播端: http://58.22.109.6/live/1.html 
 观看端:http://58.22.109.6/live/2.html
 
-手机视频电话：
+手机sip协议H264编码视频电话：
 测试帐号332240 332241 密码：222222
 android:http://pan.baidu.com/s/1sj2lA9n
 
 手机随机视频通话，按一下麦图标，5秒内匹配同时按键的人视频聊天啦．
-帐号随意输
-android:http://pan.baidu.com/s/1pJylUuZ
+帐号随机
+http://www.mumayi.com/android-830474.html
