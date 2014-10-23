@@ -11,7 +11,7 @@ ovmeet手机视频会议视频教学平台
 相关资料搜索： ovmeet　关键字 
 
 ovmeet 手机视频会议　移动视频
-演示：http://58.22.109.6/ovmeet1/ 商业版:http://58.22.109.6/ovmeet/
+开源版演示：http://58.22.109.6/ovmeet1/ 商业版可联系QQ:1410919373
 android:http://58.22.109.6/ovmeet1/OvMeet.apk
 iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
 
