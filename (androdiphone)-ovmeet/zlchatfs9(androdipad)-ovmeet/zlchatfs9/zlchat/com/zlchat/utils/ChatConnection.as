@@ -470,12 +470,9 @@ package com.zlchat.utils {
             var _local3:DataProvider;
             var _local4:Object;
             var _local5:*;
-            var _local6:Object;
-			trace("Speaklist1:");
-            for (_local2 in _arg1.changeList) {
-				trace("Speaklist2:");
-                _local5 = _arg1.changeList[_local2];
-				trace("Speaklist3:"+_local5.code);
+            var _local6:Object; 
+            for (_local2 in _arg1.changeList) { 
+                _local5 = _arg1.changeList[_local2]; 
                 switch (_local5.code){
                     case "change":
                         _local6 = speakListSo.data[_local5.name];
@@ -487,15 +484,7 @@ package com.zlchat.utils {
                         break;
                 };
             };
-			trace("Speaklist5:");
-            _local3 = new DataProvider();
-            for each (_local4 in speakListSo.data) {
-                _local3.addItem({
-                    label:_local4.realName,
-                    data:_local4
-                });
-            };
-            dispatchEvent(new ConnListEvent(ConnListEvent.SpeakerListSync, _local3));
+ 
         }
         public function onClientServerStatus(_arg1:BandwidthDetectEvent):void{
         }
@@ -507,42 +496,21 @@ package com.zlchat.utils {
         protected function onUserListSync(_arg1:SyncEvent):void{
             var _local4:Object;
             var _local2:DataProvider = new DataProvider();
-            var _local3:DataProvider = new DataProvider();
-			trace("userlist1:");
-            for each (_local4 in userListSo.data) {
-                trace("userlist1:"+_local4.userID+":"+this.userID);
-				if (_local4.userID == this.userID){
-					trace("userlist2:"+_local4.userID+":"+this.userID);
+            var _local3:DataProvider = new DataProvider(); 
+            for each (_local4 in userListSo.data) { 
+				if (_local4.userID == this.userID){ 
                     this.user = _local4;
-                    _local2.addItem({
-                        label:(_local4.realName + "  (本人)"),
+                    _local2.addItem({ 
                         data:_local4
                     });
-                } else {
-					trace("userlist3:"+_local4.userID+":"+this.userID);
+                } else { 
                     _local2.addItem({
                         label:_local4.realName,
                         data:_local4
                     });
-                };
-				trace("userlist4:"+_local4.userID+":"+this.userID);
-                if (_local4.hasCam == true){
-					trace("userlist5:"+_local4.userID+":"+this.userID);
-                    _local3.addItem({
-                        label:_local4.realName,
-                        data:_local4
-                    });
-                };
-				trace("userlist6:"+_local4.userID+":"+this.userID);
+                }; 
             };
-			trace("userlist7:");
-            dispatchEvent(new ConnListEvent(ConnListEvent.UserListSync, _local2));
-			trace("userlist8:");
-            if (_local3.length > 0){
-				trace("userlist9:");
-                dispatchEvent(new ConnListEvent("jksync", _local3));
-            };
-			trace("userlist10:");
+ 
         }
         public function onKick(_arg1:Boolean):void{
             if (_arg1){
