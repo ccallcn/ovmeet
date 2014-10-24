@@ -72,11 +72,7 @@ package com.zlchat.ui {
             if (_user.userID != nc.userID){
 		_stream = new NetStream(nc);
 
-
-
-		//_stream = new NetStream(nc.ncvideo);
-		//_stream.bufferTime = 0;
-		//_stream = new NetStream(nc.ncvideo, nc.groupSpecifier.groupspecWithAuthorizations());
+ 
 		_stream.addEventListener(NetStatusEvent.NET_STATUS, netStatusHandler);
                 video.attachNetStream(_stream);
                 _stream.play(_user.userID);
@@ -111,9 +107,7 @@ package com.zlchat.ui {
             };
         }
         public function set conn(_arg1:ChatConnection){
-            nc = _arg1;
-            nc.addEventListener("ChangeVideoDV", changeVideoDV);
-            nc.addEventListener("ChangeAudioDV", changeAudioDV);
+            nc = _arg1; 
         }
         public function stopVideo(_arg1:Boolean):void{
             _stream.receiveVideo(_arg1);
@@ -129,9 +123,7 @@ package com.zlchat.ui {
             manHead.width = _arg1;
             manHead.height = _arg2;
             video.width = _arg1;
-            video.height = _arg2;
-            bufBar.x = ((_arg1 - bufBar.width) / 2);
-            bufBar.y = ((_arg2 - bufBar.height) / 2);
+            video.height = _arg2; 
         }
         public function clearStream():void{
             if (_user.userID != nc.userID){
