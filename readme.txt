@@ -12,38 +12,29 @@ ovmeet手机视频会议视频教学平台
 7,应用场景很多吧，直播，会议，视频教学，视频游戏．
 相关资料搜索： ovmeet　关键字 
 
+
+支持任何移动项目集成!
+手机App,Web调用办公集成只要5秒就能接入系统,手机web用链接就可以调用,app用URI调用演示
+网页调用样式：<a href=“ovmeet://userName=test111&realName=test111&password=111&mediaServer=demo.ommg.ocom&role=2&roomID=332240&scriptType=PHP”>测试会议：视频会议1</a>
+Android 接口调用：startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("ovmeet://userName=test111&realName=test111&password=111&mediaServer=demo.ommg.ocom&role=2&roomID=332240&scriptType=PHP")));
+
 ovmeet 手机视频会议　移动视频
-开源版演示：http://58.22.109.6/ovmeet1/ 
-商业版：http://demo.ommgo.com 
 网上视频教学站点演示
 http://ovmeet.ommgo.com 
-商业版具有更多的功能,如全套office文档转换，更好的界面，更高的稳定性，需要可联系QQ:1410919373
-android:http://58.22.109.6/ovmeet00/ovmeet.apk
-iphone越狱:http://58.22.109.6/ovmeet1/OvMeet.ipa
+http://demo.ommgo.com
+手机端下载:
+IOS: http://demo.ommgo.com/ovmeet.ipa
+Android: http://demo.ommgo.com/ovmeet.apk
 
-ovmeet-server安装包下载
+开源的ovmeet-server安装包下载
 地址:http://pan.baidu.com/s/1o6v6cX0
 1.ovmeet 为绿色软件, 首先解压到C:\ (注意不要放到别的目录下去)
 2.运行install.exe 安装程序.注意:只安装一次就行了
 3.如果要卸载删除程序的话 运行uninstall.exe,再删除C:\ovmeet目录就可以了.
 4.在浏览器中输入http://localhost:5080/  测试的帐号密码随意输
 5. ce_checkUser.php 客户端的回调户验证用,参数见页内说明,可以和你的业务系统对接,可以与你的帐号系统无缝集成
-6.rtmfp部置开发非常麻烦，这里部署调用都没有协及，属定制开发部署内容，有特别高并发之类需求，具体联系业务咨询。
-
+ 
 提供源码自部署，源码编译重打包，应用集成，应用定制服务（收费）
 业务合作定制(非技术)QQ:1410919373  QQ群：108712418
 手机视频　物联网　移动互联　通信平台
-
-下面是一些应用演示产品
-帐号随便输　
-主播直播技术演示不需要自建服务器: 
-主播端: http://58.22.109.6/live/1.html 
-观看端:http://58.22.109.6/live/2.html
-
-手机sip协议H264编码视频电话：
-测试帐号332240 332241 密码：222222
-android:http://pan.baidu.com/s/1sj2lA9n
-
-手机随机视频通话，按一下麦图标，5秒内匹配同时按键的人视频聊天啦．
-帐号随机
-http://www.mumayi.com/android-830474.html
+ 
