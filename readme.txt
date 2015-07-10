@@ -24,8 +24,8 @@ ovmeet 手机视频会议　移动视频
 http://ovmeet.ommgo.com 
 http://demo.ommgo.com
 手机端下载:
-IOS: http://demo.ommgo.com/ovmeet.ipa
-Android: http://demo.ommgo.com/ovmeet.apk
+IOS: http://ovmeet.ommgo.com/ovmeet.ipa
+Android: http://ovmeet.ommgo.com/ovmeet.apk
 
 开源的ovmeet-server安装包下载
 地址:http://pan.baidu.com/s/1o6v6cX0
