@@ -21,7 +21,7 @@ Android 接口调用：startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("o
 
 ovmeet 手机视频会议　移动视频
 网上视频教学站点演示
-http://ovmeet.ommgo.com 
+http://www.ommgo.com/doczh/ 
 http://www.ommgo.com
 手机端下载:
 IOS: http://ovmeet.ommgo.com/doczh/ovmeet.ipa
