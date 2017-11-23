@@ -21,11 +21,11 @@ Android 接口调用：startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("o
 
 ovmeet 手机视频会议　移动视频
 网上视频教学站点演示
-http://ovmeet.ovsyun.com/doczh/ 
+http://m.ovmeet.com/doczh/ 
 http://www.ovsyun.com
 手机端下载:
-IOS: http://ovmeet.ovsyun.com/doczh/ovmeet.ipa
-Android: http://ovmeet.ovsyun.com/doczh/ovmeet.apk
+IOS: http://m.ovmeet.com/doczh/ovmeet.ipa
+Android: http://m.ovmeet.com/doczh/ovmeet.apk
 
 开源的ovmeet-server安装包下载
 地址:http://pan.baidu.com/s/1o6v6cX0
