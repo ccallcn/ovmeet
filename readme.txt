@@ -20,9 +20,8 @@ ovmeet手机视频会议视频教学平台
 Android 接口调用：startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("ovmeet://userName=test111&realName=test111&password=111&mediaServer=demo.ommg.ocom&role=2&roomID=332240&scriptType=PHP")));
 
 ovmeet 手机视频会议　移动视频
-网上视频教学站点演示
-http://m.ovmeet.com/doczh/ 
-http://www.ovsyun.com
+产品介绍和演示
+http://www.ovsyun.com/product4.html
 手机端下载:
 IOS: http://m.ovmeet.com/doczh/ovmeet.ipa
 Android: http://m.ovmeet.com/doczh/ovmeet.apk
