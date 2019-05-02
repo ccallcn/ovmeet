@@ -18,6 +18,7 @@ ovmeet手机视频会议视频教学平台
 =====================================================================================================================
 老项目基于adobe的flash开发，由于adobe这块产口已经不维护，后继启用新技术开发了全新的ovmeet-轻会议产品线：
 新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。
+
 业务合作定制(非技术)QQ:1410919373  QQ群：108712418
 主要功能和特点：
 
@@ -31,6 +32,10 @@ d,支持任意客户端，手机web,随开随用，不用另装任何APP
 e,桌面共享，全程会议转直播，支持rtmp-cdn转发。
 f,便捷集成，系统与业务剥离，与自有业务无缝集成。
 g,支持混屏录制服务端录制，支持视频点播。
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5818726/30999006-df7e0ae0-a497-11e7-96db-9ce87ae67b34.gif"/>
+</p>
+
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png" /></p>
