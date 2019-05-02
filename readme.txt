@@ -43,4 +43,5 @@ f,便捷集成，系统与业务剥离，与自有业务无缝集成。
 
 g,支持混屏录制服务端录制，支持视频点播。
 
- ![image](https://github.com/ccallcn/ovmeet/master/TIM图片20190324100853.png)
+ ![image](https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png)
+ 
