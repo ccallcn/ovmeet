@@ -15,7 +15,7 @@ ovmeet手机视频会议视频教学平台</br>
 提供源码自部署，源码编译重打包，应用集成，应用定制服务收费业务合作定制</br>
 (非技术)QQ:1410919373  QQ群：108712418 
 </br>
-===========================================================================================</br>
+=================================================================================</br>
 </br>
 老项目基于adobe的flash开发，由于adobe已经不再维护，后继启用新技术开发了全新的ovmeet-轻会议产品线：</br>
 新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。</br>
@@ -39,4 +39,5 @@ g,支持混屏录制服务端录制，支持视频点播。</br>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
-
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
+<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
