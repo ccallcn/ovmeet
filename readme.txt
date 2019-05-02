@@ -12,29 +12,35 @@ ovmeet手机视频会议视频教学平台
 6,如实现商业应用，标识作者和联系方式即可，代码可以任意修改和使用到商业软件中.希望能给你带来实际收益
 7,应用场景很多吧，直播，会议，视频教学，视频游戏．
 相关资料搜索： ovmeet　关键字 
-
-
-支持任何移动项目集成!
-手机App,Web调用办公集成只要5秒就能接入系统,手机web用链接就可以调用,app用URI调用演示
-网页调用样式：<a href=“ovmeet://userName=test111&realName=test111&password=111&mediaServer=demo.ommg.ocom&role=2&roomID=332240&scriptType=PHP”>测试会议：视频会议1</a>
-Android 接口调用：startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("ovmeet://userName=test111&realName=test111&password=111&mediaServer=demo.ommg.ocom&role=2&roomID=332240&scriptType=PHP")));
-
-ovmeet 手机视频会议　移动视频
-产品介绍和演示
-http://www.ovsyun.com/product4.html
-手机端下载:
-IOS: http://m.ovmeet.com/doczh/ovmeet.ipa
-Android: http://m.ovmeet.com/doczh/ovmeet.apk
-
-开源的ovmeet-server安装包下载
-地址:http://pan.baidu.com/s/1o6v6cX0
-1.ovmeet 为绿色软件, 首先解压到C:\ (注意不要放到别的目录下去)
-2.运行install.exe 安装程序.注意:只安装一次就行了
-3.如果要卸载删除程序的话 运行uninstall.exe,再删除C:\ovmeet目录就可以了.
-4.在浏览器中输入http://localhost:5080/  测试的帐号密码随意输
-5. ce_checkUser.php 客户端的回调户验证用,参数见页内说明,可以和你的业务系统对接,可以与你的帐号系统无缝集成
+ 
  
 提供源码自部署，源码编译重打包，应用集成，应用定制服务（收费）
 业务合作定制(非技术)QQ:1410919373  QQ群：108712418
 手机视频　物联网　移动互联　通信平台
- 
+=====================================================================================================================
+老项目基于adobe的flash开发，由于adobe这块产口已经不维护，后继启用新技术开发了全新的ovmeet-轻会议产品线：
+新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。
+
+主要功能和特点：
+
+1，采用全新的Webrtc技术，在所有的web端实施，兼容IOS,android,pc，便捷接入5分钟就能集成好。
+
+2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。
+
+3，功能强大
+
+a,全web融合会议视频，支持主持控场，视频多种部局。
+
+b,支持白板功能，文档共享服务。
+
+c,支持视频本地和会议播放，支持其它协议终端参会。
+
+d,支持任意客户端，手机web,随开随用，不用另装任何APP
+
+e,桌面共享，全程会议转直播，支持rtmp-cdn转发。
+
+f,便捷集成，系统与业务剥离，与自有业务无缝集成。
+
+g,支持混屏录制服务端录制，支持视频点播。
+
+ ![image](https://github.com/ccallcn/ovmeet/master/TIM图片20190324100853.png)
