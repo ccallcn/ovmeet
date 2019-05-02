@@ -31,8 +31,9 @@ d,支持任意客户端，手机web,随开随用，不用另装任何APP
 e,桌面共享，全程会议转直播，支持rtmp-cdn转发。
 f,便捷集成，系统与业务剥离，与自有业务无缝集成。
 g,支持混屏录制服务端录制，支持视频点播。
-![image](https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png)
-![image](https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png)
-![image](https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png)
-![image](https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png)
-![image](https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png)
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
+
