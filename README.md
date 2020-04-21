@@ -9,13 +9,38 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 1，采用全新的Webrtc技术，在所有的web端实施，兼容IOS,android,pc，便捷接入5分钟就能集成好。</br>
 2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。</br>
 3，功能强大</br>
-a,全web融合会议视频，支持主持控场，视频多种部局。</br>
-b,支持白板功能，文档共享服务。</br></br>
-c,支持视频本地和会议播放，支持其它协议终端参会。</br>
-d,支持任意客户端，手机web,随开随用，不用另装任何APP</br>
-e,桌面共享，全程会议转直播，支持rtmp-cdn转发。</br></br>
-f,便捷集成，系统与业务剥离，与自有业务无缝集成。</br>
-g,支持混屏录制服务端录制，支持视频点播。</br>
+视频会议 </br>
+视频发言，审请发言，管理人员发言，视频部局，视频设备设置，管理人员设备音量，踢人，设置发言人标签，设置主屏和部局位置</br>
+MCU视频会议系统，最高64方融屏，全Web平台方案（支持PC,ANDROID,IOS平台上使用）</br>
+
+桌面共享 </br>
+支持PC桌面共享 </br>
+
+聊天消息</br>
+会议内消息</br>
+
+电子白板</br>
+会议电子白板，自由笔，直线，圆，正方形，橡皮，清屏，缩放</br>
+
+文档白板</br>
+支持格式PDF,PPT,DOC,PNG,JPG,翻页，缩放</br>
+
+文档共享</br>
+上传，下载，删除，打开</br>
+
+视频直播监控接入</br>
+RTSP摄像头接入，RTMP接入，HTTP 在线视频接入会议</br>
+
+视频共享点播</br>
+视频上传，下载，删除，在线观看，格式Mp4</br>
+
+会议在线录制</br>
+支持会议视频融屏录制，服务端存录，Mp4格式
+在线录制观看点播
+
+会议旁路直播</br>
+支持会议视频RTMP远程推流直播</br>
+
 <a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM截图20190423172014.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
