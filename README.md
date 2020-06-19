@@ -45,7 +45,7 @@ RTSP摄像头接入，RTMP接入，HTTP 在线视频接入会议</br>
 会议旁路直播</br>
 支持会议视频RTMP远程推流直播</br>
 
-<a href="https://w.ovsyun.com:9301/login.html">演示：https://w.ovsyun.com:9301/login.html</a>
+<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM截图20190423172014.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
