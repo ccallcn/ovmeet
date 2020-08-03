@@ -2,6 +2,15 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 老项目基于adobe的flash开发，由于adobe已经不再维护，后继启用新技术开发了全新的ovmeet-轻会议产品线,老版本不再维护</br>
 新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。</br>
 功能完整全平台视频会议，包括：白板，ppt演示，群聊，单聊，文件共享,桌面共享，多会议平台</br>
+
+<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM截图20190423172014.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
+<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
 </br>
 新产品已经商业化啦，有需求可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：216403866 108712418</br>
@@ -44,12 +53,3 @@ RTSP摄像头接入，RTMP接入，HTTP 在线视频接入会议</br>
 
 会议旁路直播</br>
 支持会议视频RTMP远程推流直播</br>
-
-<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM截图20190423172014.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
-<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
