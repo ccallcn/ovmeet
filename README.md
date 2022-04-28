@@ -45,14 +45,15 @@ RTSP摄像头接入，RTMP接入，HTTP 在线视频接入会议</br>
 支持会议视频RTMP远程推流直播</br>
 
 基于全新的架构开发的AR类应用产品：OvMeetAR可视化远程协助系统
-OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多硬件接入，
-<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
+
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/ovsyunAR1.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
-硬件接入：
 
+OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多硬件接入，
+<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
+硬件接入：
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428145920.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428144346.png" /></p>
 
