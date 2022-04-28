@@ -7,7 +7,7 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。</br>
 </br>
 
-OvMeet已经商业化啦，有需求可以联系下面QQ</br>
+OvMeet商业化需求，可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：216403866 108712418</br>
 <a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a></br>
 主要功能和特点：</br>
