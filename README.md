@@ -49,7 +49,12 @@ OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多
 <a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/ovsyunAR1.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
+硬件接入：
 
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428145920.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428144346.png" /></p>
+
+对讲广播，人员定位，资料录存一体化</br>
+<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
