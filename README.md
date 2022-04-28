@@ -7,7 +7,7 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。</br>
 </br>
 
-新产品已经商业化啦，有需求可以联系下面QQ</br>
+OvMeet已经商业化啦，有需求可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：216403866 108712418</br>
 <a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a></br>
 主要功能和特点：</br>
@@ -44,12 +44,12 @@ RTSP摄像头接入，RTMP接入，HTTP 在线视频接入会议</br>
 会议旁路直播</br>
 支持会议视频RTMP远程推流直播</br>
 
-
-<a href="https://w.ovmeet.com:9301/login.html">演示：https://w.ovmeet.com:9301/login.html</a>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM截图20190423172014.png" /></p>
+基于全新的架构开发的AR类应用产品：OvMeetAR可视化远程协助系统
+OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多硬件接入，
+<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/ovsyunAR1.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110422.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110426.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
 
