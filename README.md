@@ -10,6 +10,7 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 OvMeet商业化需求，可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：216403866 108712418</br>
 <a href="https://w.ovmeet.com:9301/login.html">MCU演示：https://w.ovmeet.com:9301/login.html</a></br>
+<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
 主要功能和特点：</br>
 3，功能列表：</br>
 视频会议 </br>
