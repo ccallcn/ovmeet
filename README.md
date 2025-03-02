@@ -12,34 +12,17 @@ OvMeet商业化需求，可以联系下面QQ</br>
 <a href="https://w.ovmeet.com:9301/login.html">MCU(支持SIP)演示：https://w.ovmeet.com:9301/login.html</a></br>
 <a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a></br>
 <a href="https://v.ovmeet.com:9902/index.html">SFU/MCU融合架构：https://v.ovmeet.com:9902/index.html</a></br>
-主要功能和特点：</br>
-**Web极低延时200毫秒左右的直播推流和播放，web在线低延时会议直播推流（可定调Web会议在线直播推流）**
-
+直播会议LiveMeet演示：</br>
 Win64测试包：<a href='https://m.ovmeet.com/ovsyunlive.zip'>https://m.ovmeet.com/ovsyunlive.zip</a><br />
 Linux测试包：<a href='https://m.ovmeet.com/ovsyunlive11-linux.zip'>https://m.ovmeet.com/ovsyunlive11-linux.zip</a><br />
 双击运行，start.bat  停止：stop.bat  商用版支持Windows,Linux系统<br />
 服务程序在公网上，要配ovmedia.ini的exthost=公网IP.(内网也可以配内网IP重启)<br />
 <br />
-1.启动会议地址:<a href='https://localhost:9903'>https://localhost:9903</a> <br />
+启动会议地址:<a href='https://localhost:9903'>https://localhost:9903</a> <br />
 在线融合会议:<a href='https://m.ovmeet.com:9903'>https://m.ovmeet.com:9903</a> <br />
 在线一键会议:<a href='https://m.ovmeet.com:7777'>https://m.ovmeet.com:7777</a> <br />
-<br />
-视频会议，媒体中心，指挥调度功能（其它视频互动商用产品）：
-<br />
-多协议rtmp/rtsp/webrtc/sip/融合 多屏多硬件HDMI/AV/USB/TYPE-C接入
-<br />
-MCU+SFU媒体中心(流媒体内核)演示：https://v.ovmeet.com:9902/index.html
-<br />
-MCU-SIP(VOIP)演示：https://w.ovmeet.com:9301/login.html
 
-2.超低延播放器代码集成：网页代码接入，两行代码接入,参考play/demo.html代码，网页嵌入ovplayer.min.js，指定ovsyunlive服务器地址，播放rtsp/rtmp流。<br />
-//ovsyunlive运行的服务地址 <br />
-var srvurl="http://localhost:7701";<br />
-this.ovplayer = new OvPlayer("video",srvurl);<br />
-//要播放的rtsp/rtmp视频地址<br />
-ovplayer.connect("rtsp://196.21.92.82/axis-media/media.amp"); <br />
-<br />
-
+主要功能和特点：</br>
 3，功能列表：</br>
 视频会议 </br>
 视频发言，审请发言，管理人员发言，视频部局，视频设备设置，管理人员设备音量，踢人，设置发言人标签，</br>
