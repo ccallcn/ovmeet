@@ -7,12 +7,6 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。</br>
 </br>
 
-OvMeet商业化需求，可以联系下面QQ</br>
-商务(非技术)QQ:1410919373 QQ群：108712418</br>
-<a href="https://w.ovmeet.com:9301/login.html">MCU(支持SIP)演示：https://w.ovmeet.com:9301/login.html</a></br>
-<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a></br>
-<a href="https://v.ovmeet.com:9902/index.html">SFU/MCU融合架构：https://v.ovmeet.com:9902/index.html</a></br>
-</br>
 
 基于全新的架构SIP广播视频会议系统</br>
 OvMeet-PBX融合通信平台，一体化集成，化繁为简​，高清视频对讲，面对面的沟通​，强大广播功能，信息一键传达​</br>
@@ -21,6 +15,14 @@ OvMeet-PBX演示：https://w.ovmeet.com:3301</a>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114548.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
 
+
+
+OvMeet商业化需求，可以联系下面QQ</br>
+商务(非技术)QQ:1410919373 QQ群：108712418</br>
+<a href="https://w.ovmeet.com:9301/login.html">MCU(支持SIP)演示：https://w.ovmeet.com:9301/login.html</a></br>
+<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a></br>
+<a href="https://v.ovmeet.com:9902/index.html">SFU/MCU融合架构：https://v.ovmeet.com:9902/index.html</a></br>
+</br>
 主要功能和特点：</br>
 3，功能列表：</br>
 视频会议 </br>
