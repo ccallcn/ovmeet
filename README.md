@@ -10,7 +10,7 @@ OvMeet2 H5轻会议、视频会议视频教学平台</br>
 
 基于全新的架构SIP广播视频会议系统</br>
 OvMeet-PBX融合通信平台，一体化集成，化繁为简​，高清视频对讲，面对面的沟通​，强大广播功能，信息一键传达​</br>
-OvMeet-PBX演示：https://w.ovmeet.com:3301</a>
+OvMeet-PBX演示：https://w.ovmeet.com:3301</a> 商业需求QQ:1410919373 可以获取本地绿色安装测试包 
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114548.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
