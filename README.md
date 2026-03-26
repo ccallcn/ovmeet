@@ -16,7 +16,6 @@ SIP/WEBRTC/RTSP/融合系统</br>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114548.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
-
 OvMeet商业化需求，可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：108712418</br>
 <a href="https://w.ovmeet.com:9301/login.html">MCU(支持SIP)演示：https://w.ovmeet.com:9301/login.html</a></br>
@@ -30,6 +29,12 @@ OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190324100853.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190417110432.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/TIM图片20190423104528.png" /></p>
+硬件接入：</br>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428145920.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428144346.png" /></p>
+对讲广播，人员定位，资料录存一体化</br>
+<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
+</br>
 主要功能和特点：</br>
 3，功能列表：</br>
 视频会议 </br>
@@ -67,9 +72,3 @@ RTSP摄像头接入，RTMP接入，HTTP 在线视频接入会议</br>
 
 会议旁路直播</br>
 支持会议视频RTMP远程推流直播</br>
-
-硬件接入：</br>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428145920.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428144346.png" /></p>
-对讲广播，人员定位，资料录存一体化</br>
-<a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
