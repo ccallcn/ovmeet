@@ -9,13 +9,16 @@
 
 基于全新的架构SIP广播视频会议系统</br>
 OvMeet-PBX融合通信平台，一体化集成，化繁为简​，高清视频对讲，面对面的沟通​，强大广播功能，信息一键传达​</br>
-OvMeet-PBX演示：https://w.ovmeet.com:3301</a> 商业需求QQ:1410919373 可以获取本地绿色安装测试包 
+
 OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 可以获取本地绿色安装测试包 
+OvMeet-PBX演示：https://w.ovmeet.com:3301</a> 商业需求QQ:1410919373 可以获取本地绿色安装测试包 
+
+<img width="1914" height="1000" alt="QQ截图20260323091530" src="https://github.com/user-attachments/assets/332a7a0e-1b19-49bc-8a4a-d95fc498b27d" />
+<img width="1431" height="828" alt="QQ截图20260326141706" src="https://github.com/user-attachments/assets/3e29ceca-759a-442a-85cd-ad1fdba4d58a" />
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114548.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
-<img width="1914" height="1000" alt="QQ截图20260323091530" src="https://github.com/user-attachments/assets/332a7a0e-1b19-49bc-8a4a-d95fc498b27d" />
-<img width="1431" height="828" alt="QQ截图20260326141706" src="https://github.com/user-attachments/assets/3e29ceca-759a-442a-85cd-ad1fdba4d58a" />
+
 
 
 OvMeet商业化需求，可以联系下面QQ</br>
