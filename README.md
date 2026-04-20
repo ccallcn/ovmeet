@@ -6,7 +6,7 @@
 2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。</br>
 </br>
 
-基于全新的架构SIP视频对讲广播视频会议系统</br>
+基于全新的架构SIP视频对讲广播会议系统</br>
 OvMeet-PBX融合通信平台，一体化集成，化繁为简​，高清视频对讲，面对面的沟通​，强大广播功能，信息一键传达​</br>
 OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 ​</br> 
 OvMeet-PBX演示：https://w.ovmeet.com:3301</a> 商业需求QQ:1410919373 可以获取本地绿色安装测试包</br>
