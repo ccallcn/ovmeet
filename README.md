@@ -1,6 +1,5 @@
 老项目基于adobe的flash开发，由于adobe已经不再维护，后继启用新技术开发了全新的ovmeet-轻会议产品线,老版本不再维护</br>
 新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。</br>
-功能完整全平台视频会议，包括：白板，ppt演示，群聊，单聊，文件共享,桌面共享，多会议平台</br>
 </br>
 兼容标准SIP/P2P/WEBERC/RTSP/RTMP/RTP/SDP直播系统，监控，MCU融合系统</br>
 1，不需要SIP服务器，也不需要专门配SIP帐号，内网可以通过扫描SIP终端P2P推拉流参会，同时也兼容SIP注册服务,SIP服务型会议</br>
@@ -23,8 +22,10 @@ OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 ​</
 OvMeet-PBX演示：https://w.ovmeet.com:3301</a> </br>
 OvMeet-PBX下载：http://www.ovmeet.com/pbx/index.html</a> win绿色安装包</br>
 SIP/WEBRTC/RTSP/融合系统</br>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920130532.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920081601.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915065845.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915091144.png" /></p>
-<img width="1914" height="1000" alt="QQ截图20260323091530" src="https://github.com/user-attachments/assets/332a7a0e-1b19-49bc-8a4a-d95fc498b27d" />
 <img width="1431" height="828" alt="QQ截图20260326141706" src="https://github.com/user-attachments/assets/3e29ceca-759a-442a-85cd-ad1fdba4d58a" />
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
@@ -38,9 +39,7 @@ OvMeet商业化需求，可以联系下面QQ</br>
 OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多硬件接入</br>
 <a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/ovsyunAR1.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920130532.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920081601.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915065845.png" /></p>
+
 硬件接入：</br>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428145920.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428144346.png" /></p>
