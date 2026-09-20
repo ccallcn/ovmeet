@@ -2,8 +2,19 @@
 新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。</br>
 功能完整全平台视频会议，包括：白板，ppt演示，群聊，单聊，文件共享,桌面共享，多会议平台</br>
 </br>
-1，采用全新的Webrtc技术，在所有的web端实施，兼容IOS,android,pc，便捷接入5分钟就能集成好。</br>
-2，技术兼容性强， 支持目前主要的协议(rtsp,rtmp,webrtc,sip)参会，支持sip硬终端，rtsp监控设备，rtmp推流编码器接入。</br>
+兼容标准SIP/P2P/WEBERC/RTSP/RTMP/RTP/SDP直播系统，监控，MCU融合系统</br>
+1，不需要SIP服务器，也不需要专门配SIP帐号，内网可以通过扫描SIP终端P2P推拉流参会，同时也兼容SIP注册服务,SIP服务型会议</br>
+2，兼容大厂商的标准SIP终端，宝利通，华为，方位，亿联各种标准SIP设备，</br>
+3，支持SIP主动搜索，无需注册上来，直接可以互相呼叫广播，会议，视频通话语音通话。</br>
+4，支持SIP群呼会议广播，会话批量管理。</br>
+5，支持各种流协议，和各种摄像头，监控平台对接，融屏参会，　WHEP/RTMP/RTSP/RTMP,WebRTC,RTP,SDP,Mp4,Mp3,</br>
+6，强大的背景广播音乐，视频播放，视频录像，单通道录像</br>
+7，强大的分发功能，推流转发，单通道转发，混流，Web观看，RTSP观看，RTSP/RTMP/WHEP推流播放，</br>
+8，支持H264,H265,OPUS,G711,</br>
+9，支持强大布局，UI定调，坐席，标签，码流，分辩率调整。</br>
+10，支持AR接入，视频标注,支持终端对焦，快照，缩放.</br>
+11，支持ASR语音转录，TTS文字广播通，方便对接AI模型</br>
+12，简单易用，可提供测试包，或定制arm/linux/windows </br>
 </br>
 
 基于全新的架构SIP视频对讲广播会议系统</br>
@@ -12,10 +23,10 @@ OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 ​</
 OvMeet-PBX演示：https://w.ovmeet.com:3301</a> </br>
 OvMeet-PBX下载：http://www.ovmeet.com/pbx/index.html</a> win绿色安装包</br>
 SIP/WEBRTC/RTSP/融合系统</br>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915091144.png" /></p>
 <img width="1914" height="1000" alt="QQ截图20260323091530" src="https://github.com/user-attachments/assets/332a7a0e-1b19-49bc-8a4a-d95fc498b27d" />
 <img width="1431" height="828" alt="QQ截图20260326141706" src="https://github.com/user-attachments/assets/3e29ceca-759a-442a-85cd-ad1fdba4d58a" />
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114548.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
 OvMeet商业化需求，可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：108712418</br>
