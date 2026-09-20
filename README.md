@@ -22,10 +22,9 @@ OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 ​</
 OvMeet-PBX演示：https://w.ovmeet.com:3301</a> </br>
 OvMeet-PBX下载：http://www.ovmeet.com/pbx/index.html</a> win绿色安装包</br>
 SIP/WEBRTC/RTSP/融合系统</br>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920130532.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915091144.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920081601.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915065845.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915091144.png" /></p>
 <img width="1431" height="828" alt="QQ截图20260326141706" src="https://github.com/user-attachments/assets/3e29ceca-759a-442a-85cd-ad1fdba4d58a" />
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
@@ -39,7 +38,7 @@ OvMeet商业化需求，可以联系下面QQ</br>
 OvMeetAR基于全新的架构，一体化调度，一体化录存，全平台多硬件接入</br>
 <a href="https://w.ovmeet.com:9301/ovmeetar/login.html">OvMeetAR演示：https://w.ovmeet.com:9301/ovmeetar/login.html</a>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/ovsyunAR1.png" /></p>
-
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920130532.png" /></p>
 硬件接入：</br>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428145920.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/blob/master/QQ%E6%88%AA%E5%9B%BE20220428144346.png" /></p>
