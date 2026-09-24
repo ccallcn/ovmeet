@@ -1,7 +1,7 @@
 老项目基于adobe的flash开发，由于adobe已经不再维护，后继启用新技术开发了全新的ovmeet-轻会议产品线,老版本不再维护</br>
 新一代Web、H5视频会议采用了新的技术架构，融合了新的视频技术，又保持完善的兼容性，在PC、android、IOS全平台实施。</br>
 </br>
-兼容标准SIP/P2P/WEBERC/RTSP/RTMP/RTP/SDP直播系统，监控，MCU/SFU融合通信视频系统</br>
+兼容标准SIP/P2P/WEBERC/RTSP/RTMP/RTP/SDP直播，监控，会议广播，MCU/SFU融合通信视频系统</br>
 1，不需要SIP服务器，也不需要专门配SIP帐号，内网可以通过扫描SIP终端P2P推拉流参会，同时也兼容SIP注册服务,SIP服务型会议</br>
 2，兼容大厂商的标准SIP终端，宝利通，华为，方位，亿联各种标准SIP设备，</br>
 3，支持SIP主动搜索，无需注册上来，直接可以互相呼叫广播，会议，视频通话语音通话。</br>
