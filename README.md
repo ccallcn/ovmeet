@@ -16,9 +16,9 @@
 12，本地离线模型及时ASR/TTS语音转录，400毫秒内及时转录，方便对接AI模型</br>
 13，简单易用，可提供测试包，或定制arm/linux/windows </br>
 </br>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260915091144.png" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ截图20260920081601.png" /></p>
-
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-16-06-54-876_com.ovmeet.ovmcu.jpg" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-14-43-21-142_com.ovmeet.ovmcu.jpg" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-11-50-58-415_com.ovmeet.ovmcu.jpg" /></p>
 基于全新的架构SIP视频对讲广播会议系统</br>
 OvMeet-PBX融合通信平台，一体化集成，化繁为简​，高清视频对讲，面对面的沟通​，强大广播功能，信息一键传达​</br>
 OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 ​</br> 
