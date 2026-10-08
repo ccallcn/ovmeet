@@ -16,7 +16,7 @@
 12，本地离线模型及时ASR/TTS语音转录，400毫秒内及时转录，方便对接AI模型</br>
 13，简单易用，可提供测试包，或定制arm/linux/windows </br>
 </br>
-Android-mcu测试服务端下载：https://w.ovmeet.com:9301/login.html </a></br>
+Android-mcu测试服务端下载：[https://w.ovmeet.com:9301/login.html ](https://w.ovmeet.com:9301/OvMeetMCU.apk)</a></br>
 </br>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-16-06-54-876_com.ovmeet.ovmcu.jpg" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-14-43-21-142_com.ovmeet.ovmcu.jpg" /></p>
