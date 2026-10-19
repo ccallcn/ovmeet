@@ -17,10 +17,7 @@
 13，简单易用，可提供测试包，或定制arm/linux/windows </br>
 </br>
 Android-mcu测试服务端下载：https://w.ovmeet.com:9301/OvMeetMCU.apk</a></br>
-</br>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-16-06-54-876_com.ovmeet.ovmcu.jpg" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-14-43-21-142_com.ovmeet.ovmcu.jpg" /></p>
-<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-11-50-58-415_com.ovmeet.ovmcu.jpg" /></p>
+
 基于全新的架构SIP视频对讲广播会议系统</br>
 OvMeet-PBX融合通信平台，一体化集成，化繁为简​，高清视频对讲，面对面的沟通​，强大广播功能，信息一键传达​</br>
 OvMeet-MCU演示：https://m.ovmeet.com:9903</a> 商业需求QQ:1410919373 ​</br> 
@@ -33,6 +30,10 @@ SIP/WEBRTC/RTSP/融合系统</br>
 <img width="1431" height="828" alt="QQ截图20260326141706" src="https://github.com/user-attachments/assets/3e29ceca-759a-442a-85cd-ad1fdba4d58a" />
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223113338.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/QQ图片20260223114538.png" /></p>
+</br>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-16-06-54-876_com.ovmeet.ovmcu.jpg" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-14-43-21-142_com.ovmeet.ovmcu.jpg" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovmeet/raw/master/Screenshot_2026-10-03-11-50-58-415_com.ovmeet.ovmcu.jpg" /></p>
 OvMeet商业化需求，可以联系下面QQ</br>
 商务(非技术)QQ:1410919373 QQ群：108712418</br>
 <a href="https://w.ovmeet.com:9301/login.html">MCU(支持SIP)演示：https://w.ovmeet.com:9301/login.html</a></br>
